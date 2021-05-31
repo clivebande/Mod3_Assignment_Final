@@ -1,0 +1,125 @@
+body {
+    font-size: 16px;
+    color: #030303;
+    background-color: #fafafa;
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #d3d3d3;
+}
+
+.navbar-brand {
+    height: 100px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #2c2c2c;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    border: 1px solid #030303;
+    color: #272727;
+    background-color: #636363;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background-color: #a5a1a1;
+    text-align: center;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #050505;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -65px;
+}
+
+
+/* header ends  here */
+
+#main-content {
+    color: #000000;
+}
+
+#main-content h1,
+#main-content h2 {
+    color: #000000;
+    text-align: center;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.row div {
+    background-color: #7e7e7e;
+    margin: 5px;
+}
+
+.row div h3 {
+    padding: 10px;
+}
+
+.row div p {
+    padding-bottom: 6px;
+}
+
+
+/* main content ends here */
+
+
+/* Media Queries */
+
+@media(min-width:1200px) {
+    .col-lg-4 {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .col-lg-4 {
+        width: 30%;
+        float: left;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .col-md-6 {
+        width: 48%;
+        float: left;
+    }
+    .row :nth-child(3) {
+        width: 97%;
+    }
+}
+
+@media(max-width:767px) {
+    .col-sx-12 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .row div {
+        margin: 0 auto;
+    }
+}
